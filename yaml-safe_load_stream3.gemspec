@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "yaml/safe_load_stream/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "yaml-safe_load_stream2"
+  spec.name          = "yaml-safe_load_stream3"
   spec.version       = YAMLSafeLoadStream::VERSION
   spec.authors       = ["Kimmo Lehto", "Levi Aul"]
   spec.email         = ["info@kontena.io", "levi@leviaul.com"]
@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Adds YAML.safe_load_stream for safely parsing multi-document YAML streams}
   spec.description   = %q{The Ruby standard library defines YAML.safe_load and YAML.load_stream but there's no way to safely load a multi document stream. This Gem adds YAML.safe_load_stream.}
-  spec.homepage      = "https://github.com/tsutsu/yaml-safe_load_stream2"
+  spec.homepage      = "https://github.com/sathish-progress/yaml-safe_load_stream3"
 
   spec.files         = Dir[*%w(lib/yaml/safe_load_stream.rb lib/yaml/safe_load_stream/core-ext.rb LICENSE README.md)]
   spec.require_paths = ["lib"]

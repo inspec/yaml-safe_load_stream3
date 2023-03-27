@@ -15,7 +15,7 @@ github:
 #     trigger: pull_request
 #     description: Pull Request validation tests
 
-ruby_gems:
+rubygems:
   - yaml-safe_load_stream3
 
 release_branches:

@@ -1,8 +1,13 @@
 # YAMLSafeLoadStream provided by `yaml-safe_load_stream3`
 [![Gem Version](https://badge.fury.io/rb/yaml-safe_load_stream3.svg)](https://badge.fury.io/rb/yaml-safe_load_stream3)
-[![Yard Docs](http://img.shields.io/badge/yard-docs-blue.svg)](http://www.rubydoc.info/github/tsutsu/yaml-safe_load_stream3/master)
+[![Yard Docs](http://img.shields.io/badge/yard-docs-blue.svg)](http://www.rubydoc.info/github/inspec/yaml-safe_load_stream3/master)
 
 ### Before you begin...
+
+The `yaml-safe_load_stream3` project is a fork of [tsutsu/yaml-safe_load_stream2](https://github.com/tsutsu/yaml-safe_load_stream2).
+We made `::YAML.parse_stream` accept parametrized args and raise `Psych::DisallowedClass` as per ruby 3.1 new way of
+passing args. The library was renamed in order to publish it to
+Rubygems without conflicting with `yaml-safe_load_stream` and `yaml-safe_load_stream2`.
 
 The `yaml-safe_load_stream3` project is a fork of
 [kontena/k8s-client](https://github.com/kontena/yaml-safe_load_stream).
@@ -95,4 +100,4 @@ Or install it yourself as:
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/tsutsu/yaml-safe_load_stream3
+Bug reports and pull requests are welcome on GitHub at https://github.com/inspec/yaml-safe_load_stream3

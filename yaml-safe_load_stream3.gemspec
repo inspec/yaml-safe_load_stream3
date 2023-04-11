@@ -6,8 +6,8 @@ require "yaml/safe_load_stream/version"
 Gem::Specification.new do |spec|
   spec.name          = "yaml-safe_load_stream3"
   spec.version       = YAMLSafeLoadStream::VERSION
-  spec.authors       = ["Kimmo Lehto", "Levi Aul"]
-  spec.email         = ["info@kontena.io", "levi@leviaul.com"]
+  spec.authors       = ["Kimmo Lehto", "Levi Aul", "InSpec Team"]
+  spec.email         = ["info@kontena.io", "levi@leviaul.com", "inspec@progress.com"]
   spec.license       = "Apache-2.0"
 
   spec.summary       = %q{Adds YAML.safe_load_stream for safely parsing multi-document YAML streams}
